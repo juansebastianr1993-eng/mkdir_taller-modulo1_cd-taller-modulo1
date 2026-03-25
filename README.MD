@@ -1,4 +1,4 @@
-# 🌍 Análisis de Salud Mundial
+# Análisis de Salud Mundial
 
 <div align="center">
 
@@ -17,7 +17,7 @@ Máster en IA & Data Science · DevSeniorCode
 
 ---
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 Este proyecto analiza indicadores de salud pública de **159 países** usando Python y Pandas. A partir del dataset `salud_mundial.csv`, se exploran variables como esperanza de vida, gasto en salud, mortalidad infantil y cobertura de vacunación para identificar patrones por región y nivel de ingresos.
 
@@ -32,7 +32,7 @@ El trabajo cubre todo el stack del Módulo 1:
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 mkdir_taller-modulo1_cd-taller-modulo1/
@@ -44,7 +44,7 @@ mkdir_taller-modulo1_cd-taller-modulo1/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 El archivo `salud_mundial.csv` contiene **159 filas × 13 columnas** con datos de salud pública a nivel mundial.
 
@@ -64,11 +64,11 @@ El archivo `salud_mundial.csv` contiene **159 filas × 13 columnas** con datos d
 | `camas_hospital_por_1000` | float | Camas hospitalarias por 1,000 hab. |
 | `vacunacion_pct` | float | % de cobertura de vacunación |
 
-> ⚠️ El dataset contiene valores nulos en varias columnas numéricas, tratados mediante imputación con la media de cada columna.
+> El dataset contiene valores nulos en varias columnas numéricas, tratados mediante imputación con la media de cada columna.
 
 ---
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
 ### Requisitos previos
 
@@ -93,7 +93,7 @@ Luego ve a **Kernel → Restart & Run All** para ejecutar todas las celdas.
 
 ---
 
-## 🔍 Hallazgos principales
+## Hallazgos principales
 
 ### 1. Ingresos y longevidad van de la mano
 Los países con nivel de ingresos **Very High** tienen un gasto promedio en salud de **$6,553 USD/año** y una esperanza de vida superior a **80 años**. Los países **Low income** gastan apenas **$127 USD/año** y no superan los 65 años en promedio.
@@ -112,7 +112,7 @@ Del total de 159 países analizados:
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python 3.10+** — Lógica, funciones y estructuras de datos
 - **Pandas** — Manipulación y análisis de datos tabulares
